@@ -36,7 +36,7 @@ const productos = new Contenedor("productos.txt")
 
 //* Descomentar para agregar productos, cambiar numero para guardar diferentes productos */
 
-// productos.save(producto1)
+// productos.save(producto4)
 
 //* Pruebas de metodos */
 
