@@ -32,17 +32,16 @@ let producto1 = new Producto(
 
 const productos = new Contenedor("productos.txt")
 
-productos.save(producto1)
-productos.save(producto2)
-productos.save(producto3)
-productos.save(producto4)
 
-console.log(productos.getById(3))
 
-console.log(productos.getAll())
+//* Descomentar para agregar productos, cambiar numero para guardar diferentes productos */
 
-productos.deleteById(2)
+// productos.save(producto1)
 
-console.log(productos.getAll())
+//* Pruebas de metodos */
+
+// productos.getById(2).then((res)=>console.log(res))
+// productos.deleteById(2)
+// productos.getAll().then((res)=>console.log(res))
 
 // productos.deleteAll()
